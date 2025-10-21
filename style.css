@@ -29,7 +29,36 @@ nav a{
 }
 
 nav a:hover{
-    
+    background-color: #49505F;
+}
+
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-image: url(layout-01-assets/img11.jpg);
+    background-repeat: none;
+    background-size:cover;
+    background-position: center;
+}
+
+#hero h1{
+    font-size:75px;
+    margin:0;
+    padding:0;
+}
+
+#hero p{
+    font-size: 25px;
+    margin:0;
+    padding:0;
+}
+
+#headline{
+    display: flex; 
 
 
 }
