@@ -57,8 +57,67 @@ nav a:hover{
     padding:0;
 }
 
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+
 #headline{
-    display: flex; 
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    background-color: #d8d8d8;
+    max-width: 350px;
+    height: 400px;
+}
 
+#headline img{
+    display: flex;
+    width: 100%;
+}
+ 
+#blue{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #1686C1;
+    max-width: 100px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
 
+#red{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #852406;
+    max-width: 100px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#green{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #178A27;
+    max-width: 100px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#two-column-left, 
+#two-column-right{
+    flex:1;
+}
+
+#containter-two{
+    display: flex;
 }
