@@ -2,11 +2,7 @@
 <html lang="zxx">
 <head>
     <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
             <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Mockup</title>
 </head>
 
@@ -114,17 +110,27 @@
     </section>
 </div>
 
-    <form id="contact">
-        <h2>Contact Form</h2>
-            <p id="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolore pariatur repudiandae error consequuntur maxime eos sequi reprehenderit quod perspiciatis! Velit nobis doloribus reprehenderit tempore expedita totam ea aut placeat?</p>
-                <div id="information">
-                    <p>Name</p>
-                    <p>Email</p>
-                    <p>Subject</p>
-                </div>
-            <div id="messages">
-                <p>Your message here...</p>
-            </div>
-    </form>
+<section id="contact-container">
+    <form id="contact" method="post">
+          <h2>Contact Form</h2>
+                    <p id="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolore pariatur repudiandae error consequuntur maxime eos sequi reprehenderit quod perspiciatis! Velit nobis doloribus reprehenderit tempore expedita totam ea aut placeat?</p>
+                        <div id="information">
+                            <input type="text" class="imput-name" placeholder="Name"> 
+                            <input type="text" class="imput-email" placeholder="Email">
+                            <input type="text" class="imput-subject" placeholder="Subject">
+                    <div id="message">
+                <textarea class="imput-message" name="message" placeholder="Your Message Here..."></textarea>
+                    </div>
+                <div id="contact-button-container"><button id="contact-button" type="reset">Send</button></div>
+                        </div>
+            </form>
+</section>
+ <footer>
+            <h2 >Footer</h2>
+                <p>Footer info</p>
+                    <hr>
+                    <p class="copyright">&copy; 2024 Your Company Name.</p>
+         <img src="layout-01-assets/img0.png" alt="arrow">
+    </footer>
 </body>
 </html>
